@@ -198,3 +198,9 @@ if __name__ == "__main__":
     else:
         print("\n💡 To run comprehensive tests, use: python polynomial.py --test")
         print("💡 Or run directly: python test_polynomial.py")
+
+# add temporarily at bottom and run: python polynomial.py
+print(Add(Int(2), Int(3)).evaluate(7).i)     # 5
+print(Mul(Int(2), X()).evaluate(4).i)         # 8
+print(Sub(Int(10), Int(3)).evaluate(0).i)     # 7
+print(Div(Int(15), Int(3)).evaluate(0).i)     # 5
